@@ -183,3 +183,16 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 }
+function resetState() {
+  nextButton.style.display = "none";
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
+}
+
+function showScore() {
+  resetState();
+  questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+  nextButton.innerHTML = "Play Again?";
+  nextButton.style.display = "block";
+}
