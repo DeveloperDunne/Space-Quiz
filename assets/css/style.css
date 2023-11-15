@@ -43,6 +43,7 @@ body {
 }
 
 .btn {
+  color: #0a0d60;
   background: white;
   width: 95%;
   border: 2px solid #0a0d60;
@@ -74,4 +75,14 @@ body {
 
 .hide {
   display: none;
+}
+
+.correct {
+  background: #8aeabc;
+  color: white;
+}
+
+.incorrect {
+  background: #d86284;
+  color: white;
 }
