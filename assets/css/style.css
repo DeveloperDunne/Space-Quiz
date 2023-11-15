@@ -60,8 +60,18 @@ body {
 
 #start-btn {
   width: 30%;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
+  margin: 20px auto;
 }
 
 #next-btn {
   width: 30%;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
+  margin: 20px auto;
+}
+
+.hide {
+  display: none;
 }
