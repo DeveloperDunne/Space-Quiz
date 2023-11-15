@@ -1,0 +1,67 @@
+/*Overides default styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", "sans-serif";
+}
+
+body {
+  background: url("../images/space-bg.jpg");
+  color: #0a0d60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: white 0 0 10px 3px;
+}
+
+#heading {
+  border-bottom: 2px solid #f76dae;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+#info {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+#quiz-box {
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.btn {
+  background: white;
+  width: 95%;
+  border: 2px solid #0a0d60;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-color: pink;
+  background-color: #7479f0;
+  color: white;
+}
+
+#start-btn {
+  width: 30%;
+}
+
+#next-btn {
+  width: 30%;
+}
