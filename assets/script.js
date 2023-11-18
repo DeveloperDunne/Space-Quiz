@@ -153,7 +153,6 @@ const questions = [
 
 const instructionsPage = document.getElementById("instructions");
 const quizPage = document.getElementById("quiz-box");
-const startButton = document.getElementById("start-btn");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
