@@ -57,7 +57,7 @@ body {
   margin: 10px 0;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
   cursor: pointer;
   background-color: #0a0d60;
   color: white;

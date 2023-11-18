@@ -193,12 +193,12 @@ function resetState() {
 
 function showScore() {
   resetState();
-  if (score < 6) {
+  if (score <= 6) {
     questionElement.innerHTML = `You scored ${score} out of 10! Keep practising!`;
-  } else if (score < 9) {
+  } else if (score <= 9) {
     questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
   } else if (score === 10) {
-    questionElement.innerHTML = `You scored ${score} out of 10! Wow top marks, well done! Lets get you on that spaceship!`;
+    questionElement.innerHTML = `You scored ${score} out of 10! Wow top marks, You are ready for lift off!!`;
   }
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
