@@ -2,7 +2,7 @@
 <br>
 Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful. it will generate 10 random questions and then let the user know their score at the end.
 
-(Responsive image)
+(assets/images/spc-responsive.png)
 
 #Table of contents
 
@@ -20,21 +20,21 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I built this quiz to be fun and educational.
 - The quiz is aimed at primary school children.
-- The quiz was to be colourful but easy to read and navigate.
+- The quiz to be bold and colourful but easy to read and navigate.
 
 <br>
 
 ## 2. Live Quiz:
 
 - The quiz can be found in the below link.
-  [...]
+  [Space Quiz](https://developerdunne.github.io/Space-Quiz/)
 
   <br>
 
 ## 3. Color pallete:
 
 - The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from ...
-
+(assets/images/spc-palette.png)
 <br>
 
 ## 4. Technologies Used:
@@ -66,7 +66,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 #### Am I responsive:
 
-[See at top of page.]
+(assets/images/spc-responsive.png)
 
 #### LightHouse:
 
