@@ -2,17 +2,17 @@
 <br>
 Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful. it will generate 10 random questions and then let the user know their score at the end.
 
-(assets/images/spc-responsive.png)
+[](assets/readme-images/spc-responsive.png)
 
 #Table of contents
 
-- [1. Website Goals]
-- [2. Live Website]
-- [3. Color Pallete]
-- [4. Technologies Used]
-- [5. Testing]
-- [6. Deployment]
-- [7. Achknowledgements and Credits]
+- [1. Website Goals](#1-website-goals)
+- [2. Live Website](#2-live-website)
+- [3. Color Pallete](#3-color-pallete)
+- [4. Technologies Used](#4-technologies-used)
+- [5. Testing](#5-testing)
+- [6. Deployment](#6-deployment)
+- [7. Achknowledgements and Credits](#7-achknowledgements-and-credits)
 
 <br>
 
@@ -24,7 +24,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 <br>
 
-## 2. Live Quiz:
+## 2. Live Website:
 
 - The quiz can be found in the below link.
   [Space Quiz](https://developerdunne.github.io/Space-Quiz/)
@@ -34,7 +34,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ## 3. Color pallete:
 
 - The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from ...
-(assets/images/spc-palette.png)
+[](assets/readme-images/spc-palette.png)
 <br>
 
 ## 4. Technologies Used:
@@ -66,7 +66,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 #### Am I responsive:
 
-(assets/images/spc-responsive.png)
+  - The image of what the website looks on different devices was taken from [Am I Responsive?](https://ui.dev/amiresponsive) (See preview at top of page.)
 
 #### LightHouse:
 
