@@ -59,9 +59,9 @@ body {
 
 .btn:hover:not([disabled]) {
   cursor: pointer;
-  background-color: #0a0d60;
+  background-color: #f76dae;
   color: white;
-  border-color: #0a0d60;
+  border-color: whitesmoke;
 }
 
 #start-btn {
@@ -83,12 +83,12 @@ body {
 }
 
 .correct {
-  background: #8aeabc;
+  background: #52eaa0;
   color: white;
 
 }
 
 .incorrect {
-  background: #d86284;
+  background: #f9435e;
   color: white;
 }
