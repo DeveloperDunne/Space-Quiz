@@ -1,10 +1,10 @@
-#Space Quiz
+# Space Quiz
 <br>
 Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful. it will generate 10 random questions and then let the user know their score at the end.
 
-[](assets/readme-images/spc-responsive.png)
+![Responsivness](./readme-images/spc-responsive.png)
 
-#Table of contents
+# Table of contents
 
 - [1. Website Goals](#1-website-goals)
 - [2. Live Website](#2-live-website)
@@ -20,7 +20,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I built this quiz to be fun and educational.
 - The quiz is aimed at primary school children.
-- The quiz to be bold and colourful but easy to read and navigate.
+- I wanted the quiz to be bold and colourful but to be easy to read and navigate through.
 
 <br>
 
@@ -33,8 +33,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ## 3. Color pallete:
 
-- The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from ...
-[](assets/readme-images/spc-palette.png)
+- The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/)
+![Color Palette](./readme-images/spc-palette.png)
 <br>
 
 ## 4. Technologies Used:
@@ -45,12 +45,6 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - CSS: This was used to style the content.
 - Javascript: This was used in order to ensure the quiz was interactive.
 
-### Design:
-
-- Balsamiq:
-- Google Fonts:
-- Font Awesome:
-- Favicon.io
 
 <br>
 
@@ -61,6 +55,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - The quiz was tested manually using DevTools.
 - It was tested on Chrome and Safari.
 - It was tested on all devices such as mobile, tablet and laptop to ensure responsiveness.
+- Friends and family members were also asked to test the website.
 
 ### Testing programmes run:
 
@@ -70,13 +65,19 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 #### LightHouse:
 
+- I ran the website through 'Lighthouse in Devtools.
+
 [Insert picture]
 
 #### HTML Validator:
 
+- No errors were displayed when putting the code through the official W3C Validator.
+
 [Insert picture]
 
 #### CSS Validator:
+
+- No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
 [Insert picture]
 
@@ -87,6 +88,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
  <br>
 
 ### Bugs
+
+-
 
  <br>
 
@@ -111,6 +114,14 @@ Once the webiste is deployed you can view it online, to do this:
 <br>
 
 ## 7. Achknowledgements and Credits:
+
+### Design Credits:
+
+- Balsamiq: This was used to design the website before building.
+- [Google Fonts](https://fonts.google.com/): Fonts used were from here.
+- [Favicon.io](https://favicon.io/): Favicon was taken from here.
+
+### Achknowledements and Credits:
 
 - Ideas were taken from the Code Institute's Love Maths project and Youtube.
 - My mentor, Medale Oluwafemi for his guidance and support.
