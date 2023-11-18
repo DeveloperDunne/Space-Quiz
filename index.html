@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Search Tags-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -28,12 +29,15 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
     <title>Space Quiz</title>
+    <!--CSS File-->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Fonts-->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Creepster&family=Handlee&family=Lato:wght@300&family=M+PLUS+Rounded+1c&family=Mooli&family=Mountains+of+Christmas&family=Oswald:wght@200;300;400;500;600;700&display=swap");
     </style>
   </head>
   <body>
+    <!--Instructions-->
     <div class="container">
       <h1 id="heading">Space Quiz</h1>
       <div id="instructions">
@@ -41,6 +45,7 @@
         <p id="info">Click the start button and test your knowledge!</p>
         <button data-type="start" id="start-btn" class="btn">Start</button>
       </div>
+      <!--Start of quiz-->
       <div id="quiz-box" class="hide">
         <h2 id="question">Question</h2>
         <div id="answer-buttons">
@@ -52,6 +57,7 @@
         <button id="next-btn" class="btn">Next</button>
       </div>
     </div>
+    <!--Javascript File-->
     <script src="assets/script.js"></script>
   </body>
 </html>
