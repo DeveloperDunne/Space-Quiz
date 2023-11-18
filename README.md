@@ -37,6 +37,15 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ![Color Palette](./readme-images/spc-palette.png)
 <br>
 
+## Features:
+
+### The Landing Page:
+
+- When the page loads you are presented with the landing page which displays some brief instructions and a start button for you to begin the quiz.
+
+### Features left to implement:
+- I would have liked to implement a score leaderboard at the end of the quiz.
+
 ## 4. Technologies Used:
 
 ### Languages:
@@ -87,9 +96,11 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
  <br>
 
-### Bugs
+ ### Bugs solved:
 
--
+### Unfixed Bugs:
+
+- I am unsure as to why however since switching form CodeAnywhere to VS code it seem that it show 2 contributors on GitHub rather than one, this is even though it is just myself working on the project.
 
  <br>
 
@@ -123,5 +134,5 @@ Once the webiste is deployed you can view it online, to do this:
 
 ### Achknowledements and Credits:
 
-- Ideas were taken from the Code Institute's Love Maths project and Youtube.
+- Ideas were taken from the Code Institute's Love Maths project and  (Specific Youtube channel).
 - My mentor, Medale Oluwafemi for his guidance and support.

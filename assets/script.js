@@ -1,7 +1,8 @@
 "use strict";
+
+//Waiting for DOM to load before game starts.
 document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.getElementsByTagName("button");
-  //same as (let i=0; i<buttons.length; i++)//
   for (let button of buttons) {
     button.addEventListener("click", function () {
       if (this.getAttribute("data-type") === "start") {
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+//Questions & Answers.
 const questions = [
   {
     question: "What planet do we live on?",
@@ -162,11 +164,14 @@ questions.sort(() => Math.random() - 0.5).slice(0, 10);
 let currentQuestionIndex = 0;
 let score = 0;
 
+//Starts Quiz.
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   showQuestion();
 }
+
+//Displays Questions.
 function showQuestion() {
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
@@ -190,7 +195,7 @@ function resetState() {
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
-
+//Shows score at end of quiz.
 function showScore() {
   resetState();
   if (score <= 6) {
@@ -198,12 +203,13 @@ function showScore() {
   } else if (score <= 9) {
     questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
   } else if (score === 10) {
-    questionElement.innerHTML = `You scored ${score} out of 10! Wow top marks, You are ready for lift off!!`;
+    questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
   }
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
 }
 
+//When an answer is selected.
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const answerCorrect = selectedBtn.dataset.correct === "true";
