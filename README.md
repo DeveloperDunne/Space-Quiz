@@ -6,7 +6,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 <br>
  It will generate 10 random questions and then let the user know their score at the end.
 
-![Responsivness](./readme-images/spc-responsive.png)
+![Responsivness](./readme-images/spc-responsive.webp)
 
 # Table of contents
 
@@ -43,7 +43,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 <br>
 
-![Colour Palette](./readme-images/spc-palette.png)
+![Colour Palette](./readme-images/spc-palette.webp)
 
 
 ## Features:
@@ -52,23 +52,23 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - When the page loads you are presented with the landing page which displays some brief instructions and a start button for you to begin the quiz, the quiz will pick 10 random questions from an array of 15 potential questions.
 
-![Landing page](./readme-images/start-game.png)
+![Landing page](./readme-images/start-game.webp)
 
 ### Choosing an answer:
 
 - Once you click the start button you are presented with a question. If you are on a desktop as you hover over each potential answer it will change colour.
 
-![Choosing an answer](./readme-images/hover.png)
+![Choosing an answer](./readme-images/hover.webp)
 
 ### The correct answer:
 
 - Once you click on your answer, if correct the answer will change to green and you will be presented with a next button to carry on to the next question.
 
-![Correct answer](./readme-images/correct-answer.png)
+![Correct answer](./readme-images/correct-answer.webp)
 
 ### The wrong answer:
 
-![Wrong answer](./readme-images/incorrect-answer.png)
+![Wrong answer](./readme-images/incorrect-answer.webp)
 
 - However, if you click on the incorrect answer it will change to red and then you will be presented with a next button to carry on to the next question.
 
@@ -76,7 +76,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - Once you have completed the 10 questions of the quiz and clicked next you will be shown your score. The message displayed will vary considering on how many answers you got correct.
 
-![End of quiz page](./readme-images/end-game.png)
+![End of quiz page](./readme-images/end-game.webp)
 
 ### Features left to implement:
 - I would have liked to implement a score leaderboard at the end of the quiz but ran out of time.
@@ -111,25 +111,25 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I ran the website through 'Lighthouse in Devtools.
 
-![Lighthouse](./readme-images/spc-lighthouse.png)
+![Lighthouse](./readme-images/spc-lighthouse.webp)
 
 #### HTML Validator:
 
 - No errors were displayed when putting the code through the official W3C Validator.
 
-![HTML Validator](./readme-images/html-val.png)
+![HTML Validator](./readme-images/html-val.webp)
 
 #### CSS Validator:
 
 - No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
-![CSS Validator](./readme-images/css-val.png)
+![CSS Validator](./readme-images/css-val.webp)
 
 #### JSHint:
 
 - I ran my Javascript code through JShint and only had the one warning which I was unable to work out how to remove. I discussed this with peers who stated they had the same issue and that this particular one is okay to remain.
 
-![JShint Validator](./readme-images/jshint-val.png)
+![JShint Validator](./readme-images/jshint-val.webp)
 
  <br>
 
