@@ -3,7 +3,7 @@
 Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful.
 
 <br>
-
+<br>
  It will generate 10 random questions and then let the user know their score at the end.
 
 ![Responsivness](./readme-images/spc-responsive.png)
