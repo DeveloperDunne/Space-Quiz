@@ -50,7 +50,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The Landing Page:
 
-- When the page loads you are presented with the landing page which displays some brief instructions and a start button for you to begin the quiz, the quiz will pick 10 random questions from an array of 15 potential questions.
+- When the page loads you are presented with the landing page, as shown the background is a colourful version of space and you are displayed a box with some instructions and a start button for you to begin the quiz. This style conntinues throughout the quiz. The quiz will pick 10 random questions from an array of 15 potential questions.
 
 ![Landing page](./readme-images/start-game.webp)
 
@@ -88,7 +88,6 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - HTML: This was used to create the basic structure of the quiz.
 - CSS: This was used to style the content.
 - Javascript: This was used in order to ensure the quiz was interactive.
-
 
 <br>
 
@@ -170,9 +169,10 @@ Once the webiste is deployed you can view it online, to do this:
 - Balsamiq: This was used to design the website before building.
 - [Google Fonts](https://fonts.google.com/): Fonts used were from here.
 - [Favicon.io](https://favicon.io/): Favicon was taken from here.
+- The background picture was taken from [HD Wallpapers](https://www.hdwallpapers.in/purple_pink_galaxy_space_stars_nebula_hd_space-wallpapers.html)
 
 ### Achknowledements and Credits:
 
 - Ideas were taken from the Code Institute's Love Maths project and google for design ideas.
-- W3 Schools was used to combat any issues with code or if I was stuck (e.g - how to disable hover once answer selected).
+- W3 Schools and copyprogramming.com was used to combat any issues with code or if I was stuck (e.g - how to disable hover effect once answer selected & appending child elements).
 - My mentor, Medale Oluwafemi for his guidance and support throughout the project.
