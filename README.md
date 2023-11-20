@@ -42,7 +42,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/)
 
 <br>
-![Color Palette](./readme-images/spc-palette.png)
+
+![Colour Palette](./readme-images/spc-palette.png)
 
 
 ## Features:
