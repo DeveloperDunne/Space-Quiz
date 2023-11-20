@@ -9,10 +9,11 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - [1. Website Goals](#1-website-goals)
 - [2. Live Website](#2-live-website)
 - [3. Color Pallete](#3-color-pallete)
-- [4. Technologies Used](#4-technologies-used)
-- [5. Testing](#5-testing)
-- [6. Deployment](#6-deployment)
-- [7. Achknowledgements and Credits](#7-achknowledgements-and-credits)
+- [4.Features](#4-features)
+- [5. Technologies Used](#5-technologies-used)
+- [6. Testing](#6-testing)
+- [7. Deployment](#7-deployment)
+- [8. Achknowledgements and Credits](#8-achknowledgements-and-credits)
 
 <br>
 
@@ -41,7 +42,33 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The Landing Page:
 
-- When the page loads you are presented with the landing page which displays some brief instructions and a start button for you to begin the quiz.
+- When the page loads you are presented with the landing page which displays some brief instructions and a start button for you to begin the quiz, the quiz will pick 10 random questions from an array of 15 potential questions.
+
+![Landing page](./readme-images/start-game.png)
+
+### Choosing an answer:
+
+- Once you click the start button you are presented with a question. If you are on a desktop as you hover over each potential answer it will change colour.
+
+![Choosing an answer](./readme-images/hover.png)
+
+### The correct answer:
+
+- Once you click on your answer, if correct the answer will change to green and you will be presented with a next button to carry on to the next question.
+
+![Correct answer](./readme-images/correct-answer.png)
+
+### The wrong answer:
+
+![Wrong answer](./readme-images/wrong-answer.png)
+
+- However, if you click on the incorrect answer it will change to red and then you will be presented with a next button to carry on to the next question.
+
+### End of quiz:
+
+- Once you have completed the 10 questions of the quiz and clicked next you will be shown your score. The message displayed will vary considering on how many answers you got correct.
+
+![End of quiz page](./readme-images/end-game.png)
 
 ### Features left to implement:
 - I would have liked to implement a score leaderboard at the end of the quiz.
