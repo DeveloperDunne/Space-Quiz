@@ -1,6 +1,10 @@
 # Space Quiz
 <br>
-Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful. it will generate 10 random questions and then let the user know their score at the end.
+Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful.
+
+<br>
+
+ It will generate 10 random questions and then let the user know their score at the end.
 
 ![Responsivness](./readme-images/spc-responsive.png)
 
@@ -22,12 +26,13 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - I built this quiz to be fun and educational.
 - The quiz is aimed at primary school children.
 - I wanted the quiz to be bold and colourful but to be easy to read and navigate through.
+- The goal of the site is to provide a challenging quiz to entertain online users most.
 
 <br>
 
 ## 2. Live Website:
 
-- The quiz can be found in the below link.
+- The quiz can be found by clicking the following link -
   [Space Quiz](https://developerdunne.github.io/Space-Quiz/)
 
   <br>
@@ -35,8 +40,10 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ## 3. Color pallete:
 
 - The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/)
-![Color Palette](./readme-images/spc-palette.png)
+
 <br>
+![Color Palette](./readme-images/spc-palette.png)
+
 
 ## Features:
 
@@ -71,7 +78,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ![End of quiz page](./readme-images/end-game.png)
 
 ### Features left to implement:
-- I would have liked to implement a score leaderboard at the end of the quiz.
+- I would have liked to implement a score leaderboard at the end of the quiz but ran out of time.
 
 ## 4. Technologies Used:
 
@@ -103,19 +110,19 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I ran the website through 'Lighthouse in Devtools.
 
-[Insert picture]
+![Lighthouse](./readme-images/spc-lighthouse.png)
 
 #### HTML Validator:
 
 - No errors were displayed when putting the code through the official W3C Validator.
 
-[Insert picture]
+![HTML Validator](./readme-images/html-val.png)
 
 #### CSS Validator:
 
 - No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
-[Insert picture]
+![CSS Validator](./readme-images/css-val.png)
 
 #### JSHint:
 
@@ -124,6 +131,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
  <br>
 
  ### Bugs solved:
+
+ - When I ran my Javascript code through JShint I got a few warnings about using 'let' and 'const'. I saw advice from the slack community who told me to include (/*jshint esversion: 6 */) at the top of my code and that solved the problem.
 
 ### Unfixed Bugs:
 
@@ -161,5 +170,6 @@ Once the webiste is deployed you can view it online, to do this:
 
 ### Achknowledements and Credits:
 
-- Ideas were taken from the Code Institute's Love Maths project and  (Specific Youtube channel).
-- My mentor, Medale Oluwafemi for his guidance and support.
+- Ideas were taken from the Code Institute's Love Maths project and google for design ideas.
+- W3 Schools was used to combat any issues with code or if I was stuck (e.g - how to disable hover once answer selected).
+- My mentor, Medale Oluwafemi for his guidance and support throughout the project.

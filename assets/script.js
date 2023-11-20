@@ -1,4 +1,4 @@
-"use strict";
+/*jshint esversion: 6 */
 
 //Waiting for DOM to load before game starts.
 document.addEventListener("DOMContentLoaded", function () {
@@ -200,7 +200,7 @@ function showScore() {
   resetState();
   if (score <= 6) {
     questionElement.innerHTML = `You scored ${score} out of 10! Keep practising!`;
-  } else if (score <= 9) {
+  } else if (score <= 8) {
     questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
   } else if (score === 10) {
     questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
