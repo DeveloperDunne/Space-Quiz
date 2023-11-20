@@ -126,7 +126,9 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 #### JSHint:
 
-[Insert picture]
+- I ran my Javascript code through JShint and only had the one warning which I was unable to work out how to remove. I discussed this with peers who stated they had the same issue and that this particular one is okay to remain.
+
+![JShint Validator](./readme-images/jshint-val.png)
 
  <br>
 
