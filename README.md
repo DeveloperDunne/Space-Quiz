@@ -68,7 +68,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The wrong answer:
 
-![Wrong answer](./readme-images/wrong-answer.png)
+![Wrong answer](./readme-images/incorrect-answer.png)
 
 - However, if you click on the incorrect answer it will change to red and then you will be presented with a next button to carry on to the next question.
 
