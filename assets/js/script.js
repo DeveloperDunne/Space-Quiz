@@ -17,6 +17,9 @@ const quizPage = document.getElementById("quiz-box");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const modal = document.getElementById("myModal");
+const btn = document.getElementById("play");
+const span = document.getElementsByClassName("close")[0];
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -29,6 +32,7 @@ questions.sort(() => Math.random() - 0.5).slice(0, 10);
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
+  nextButton.innerHTML = "Next";
   showQuestion();
 }
 
@@ -88,6 +92,7 @@ function selectAnswer(e) {
   });
   nextButton.style.display = "block";
 }
+
 function handleNextButton() {
   currentQuestionIndex++;
   if (currentQuestionIndex < 10) {
@@ -104,14 +109,8 @@ nextButton.addEventListener("click", () => {
   }
 });
 
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
