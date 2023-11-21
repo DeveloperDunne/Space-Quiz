@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Handlee&family=Lato:wght@300&family=M+PLUS+Rounded+1c&family=Mooli&family=Mountains+of+Christmas&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 /*Overides default styles*/
 * {
   margin: 0;
@@ -12,16 +14,66 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+}
+#myBtn {
+  position: fixed;
+  top: 25px;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
+  margin: 30px 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 15px;
+  color: #0a0d60;
+}
+
+.modal {
+  text-align: center;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
+  width: 80%; /
+}
+
+/* The Close Button */
+.close {
+  color: #f76dae;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #0a0d60;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .container {
   background: white;
   width: 90%;
   max-width: 500px;
-  margin: 100px auto 10px;
-  border-radius: 10px;
+  margin: 90px auto 10px;
+  border-radius: 20px;
   padding: 30px;
-  box-shadow: white 0 0 10px 3px;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
 }
 
 #heading {
@@ -38,7 +90,7 @@ body {
 }
 
 #quiz-box {
-  padding: 20px 0;
+  padding: 20px 0;;
   font-size: 17px;
 }
 
@@ -55,6 +107,8 @@ body {
   border-radius: 20px;
   padding: 15px;
   margin: 10px 0;
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .btn:hover:not([disabled]) {
@@ -84,11 +138,25 @@ body {
 
 .correct {
   background: #52eaa0;
-  color: white;
+  color: black;
+  
 
 }
 
 .incorrect {
-  background: #f9435e;
-  color: white;
+  background: #F86379;
+  color: black
+}
+
+#social {
+  position: fixed;
+  bottom: 0;
+  margin-top: auto;
+  text-align: center;
+  background: white;
+  width: 100%;
+  height:8px;
+  padding:20px;
+  border: 2px solid white;
+  box-shadow: #f76dae 0 0 10px 2px;
 }
