@@ -23,6 +23,7 @@ function setUp() {
     button.addEventListener("click", function () {
       if (this.getAttribute("data-type") === "start") {
         hideInfo();
+        shuffle();
         startQuiz();
       }
     });
@@ -58,7 +59,6 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
-  shuffle();
   showQuestion();
 }
 
@@ -93,8 +93,10 @@ function showScore() {
     questionElement.innerHTML = `You scored ${score} out of 10! Keep practising!`;
   } else if (score <= 7) {
     questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
-  } else if (score <= 9) {
+  } else if (score === 10) {
     questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
+  } else {
+    questionElement.innerHTML = `You scored ${score} out of 10! DId we solve it?`;
   }
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
