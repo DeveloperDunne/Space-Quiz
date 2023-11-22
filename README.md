@@ -34,7 +34,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I would like to see what the quiz is going to be about.
 - I would like the quiz to be fun.
-- I would like to know how to play teh quiz.
+- I would like to know how to play the quiz.
 - I would like to see my score.
 - I would like to be able to try to beat my score.
 
@@ -61,7 +61,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The Landing Page:
 
-- When the page loads you are presented with the landing page, as shown the background is a colourful version of space and you are shown some text and a start button for you to begin the quiz. This style conntinues throughout the quiz. The quiz will pick 10 random questions from an array of 15 potential questions.
+- When the page loads you are presented with the landing page, as shown the background is a colourful version of space and you are shown some text and a start button for you to begin the quiz. This style continues throughout the quiz. The quiz will pick 10 random questions from an array of 15 potential questions.
 
 ![Landing page](./readme-images/start-game.webp)
 
@@ -73,7 +73,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The Modal:
 
-- The Modal will open once the 'How to play' button is clicked. Here you will find clear instructions on how teh quiz works and how to get started. You can exit the modal by clicked the pink cross in teh top right corner or alternitivly clicking outside the modal.
+- The Modal will open once the 'How to play' button is clicked. Here you will find clear instructions on how the quiz works and how to get started. You can exit the modal by clicking the pink cross in the top right corner or alternitivly clicking outside the modal.
 
 
 ![Modal](./readme-images/modal.webp)
@@ -86,7 +86,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### Choosing an answer:
 
-- Once you click the start button you are presented with a question. If you are on a desktop as you hover over each potential answer it will change colour.
+- Once you click the start button you are presented with a question. If you are on a desktop when you hover over each potential answer it will change colour.
 
 ![Choosing an answer](./readme-images/hover.webp)
 
@@ -98,9 +98,10 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The wrong answer:
 
+- However, if you click on the incorrect answer it will change to red and then you will be presented with the correct answer marked in gree. The next button to carry on to the next question will also appear..
+
 ![Wrong answer](./readme-images/incorrect-answer.webp)
 
-- However, if you click on the incorrect answer it will change to red and then you will be presented with a next button to carry on to the next question.
 
 ### End of quiz:
 
