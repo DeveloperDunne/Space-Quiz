@@ -46,13 +46,32 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ![Colour Palette](./readme-images/spc-palette.webp)
 
 
-## Features:
+## 4. Features:
 
 ### The Landing Page:
 
-- When the page loads you are presented with the landing page, as shown the background is a colourful version of space and you are displayed a box with some instructions and a start button for you to begin the quiz. This style conntinues throughout the quiz. The quiz will pick 10 random questions from an array of 15 potential questions.
+- When the page loads you are presented with the landing page, as shown the background is a colourful version of space and you are shown some text and a start button for you to begin the quiz. This style conntinues throughout the quiz. The quiz will pick 10 random questions from an array of 15 potential questions.
 
 ![Landing page](./readme-images/start-game.webp)
+
+### How to play button:
+
+- The 'How to play' button stores the instructions for the game. Once clicked a modal will open and display information on how to use the quiz. When the quiz starts this button will automatically disappear.
+
+![How to play button](./readme-images/instructions.webp)
+
+### The Modal:
+
+- The Modal will open once the 'How to play' button is clicked. Here you will find clear instructions on how teh quiz works and how to get started. You can exit the modal by clicked the pink cross in teh top right corner or alternitivly clicking outside the modal.
+
+
+![Modal](./readme-images/modal.webp)
+
+### Link to Github:
+
+- At the bottom of the page in the footer is a link that will take you to the repository page of the creator of the webiste. This will open in a new tab.
+
+![Link to GitHub](./readme-images/githublink.webp)
 
 ### Choosing an answer:
 
@@ -79,7 +98,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 ![End of quiz page](./readme-images/end-game.webp)
 
 ### Features left to implement:
-- I would have liked to implement a score leaderboard at the end of the quiz but ran out of time.
+- I would have liked to implement a username and score leaderboard at the end of the quiz but ran out of time.
 
 ## 4. Technologies Used:
 
@@ -166,13 +185,15 @@ Once the webiste is deployed you can view it online, to do this:
 
 ### Design Credits:
 
-- Balsamiq: This was used to design the website before building.
-- [Google Fonts](https://fonts.google.com/): Fonts used were from here.
-- [Favicon.io](https://favicon.io/): Favicon was taken from here.
+- Github icon was obtained from [Font Awesome](https://fontawesome.com/).
+- Balsamiq was used to design the website before building.
+- Fonts used were from [Google Fonts](https://fonts.google.com/).
+- Favicon was taken from [Favicon.io](https://favicon.io/).
 - The background picture was taken from [HD Wallpapers](https://www.hdwallpapers.in/purple_pink_galaxy_space_stars_nebula_hd_space-wallpapers.html)
 
 ### Achknowledements and Credits:
 
 - Ideas were taken from the Code Institute's Love Maths project and google for design ideas.
 - W3 Schools and copyprogramming.com was used to combat any issues with code or if I was stuck (e.g - how to disable hover effect once answer selected & appending child elements).
+- W3 School was also used to create a modal on the landing page.
 - My mentor, Medale Oluwafemi for his guidance and support throughout the project.
