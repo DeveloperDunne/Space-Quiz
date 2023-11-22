@@ -10,10 +10,10 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 # Table of contents
 
-- [1. Website Goals](#1-website-goals)
+- [1. Goals](#1-goals)
 - [2. Live Website](#2-live-website)
 - [3. Color Pallete](#3-color-pallete)
-- [4.Features](#4-features)
+- [4. Features](#4-features)
 - [5. Technologies Used](#5-technologies-used)
 - [6. Testing](#6-testing)
 - [7. Deployment](#7-deployment)
@@ -21,12 +21,22 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 <br>
 
-## 1. Website Goals:
+## 1. Goals:
 
-- I built this quiz to be fun and educational.
+### Developer Goals:
+
+- I would like this quiz to be fun and educational.
 - The quiz is aimed at primary school children.
 - I wanted the quiz to be bold and colourful but to be easy to read and navigate through.
 - The goal of the site is to provide a challenging quiz to entertain online users most.
+
+### User Exeperience /Goals:
+
+- I would like to see what the quiz is going to be about.
+- I would like the quiz to be fun.
+- I would like to know how to play teh quiz.
+- I would like to see my score.
+- I would like to be able to try to beat my score.
 
 <br>
 
@@ -39,7 +49,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ## 3. Color pallete:
 
-- The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/)
+- The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/).
+- The colours were checked with a contrast checker at [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00).
 
 <br>
 
@@ -121,10 +132,9 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 | | Mobile S (320px)| Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
 |---|:---:|:---:|:---:|:---:|
-|Responsive Images|✓|✓|✓|✓|
 |Responsive Elements|✓|✓|✓|✓|
 |Responsive Text|✓|✓|✓|✓|
-|Responsive Nav Bar|✓|✓|✓|✓|
+
 
 
 |Index Page Testing|Yes/No|
@@ -140,7 +150,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 |When user selects an answer a new question is generated|✓|
 |When user gets correct answer, it is highlighted green and score increases by 1 point|✓|
 |When user gets incorrect answer, it is highlighted red and correct answer is shown|✓|
-|When quiz finishes, final score is show and option to play again|✓|
+|When quiz finishes, final score is shown and option to play again appears|✓|
 
 ---
 
@@ -184,6 +194,8 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - I am unsure as to why however since switching form CodeAnywhere to VS code it seem that it show 2 contributors on GitHub rather than one, this is even though it is just myself working on the project.
 
+- There was a warnng on JShint regarding functions in loops, I discussed this with my mentor and other students who advised that this wasnt an issue.
+
  <br>
 
 ## 7. Deployment:
@@ -204,6 +216,15 @@ Once the webiste is deployed you can view it online, to do this:
 
 - The page is then given a site URL which you will see above the source section, please note this may take a minute before you can see it.
 
+### Cloning:
+
+- Go to the repository on GitHub.
+- Click on the Code button and copy the https URL under Clone
+- Open a terminal.
+- Go to the folder you want to store the cloned repository
+- In the terminal type git clone and paste the URL of the cloned repository after it then press Enter
+- The site will then be cloned to that directory
+
 <br>
 
 ## 8. Achknowledgements and Credits:
@@ -221,4 +242,4 @@ Once the webiste is deployed you can view it online, to do this:
 - Ideas were taken from the Code Institute's Love Maths project and google for design ideas.
 - W3 Schools and copyprogramming.com was used to combat any issues with code or if I was stuck (e.g - how to disable hover effect once answer selected & appending child elements).
 - W3 School was also used to create a modal on the landing page.
-- My mentor, Medale Oluwafemi for his guidance and support throughout the project.
+- I would like to thank the Slack community and my mentor, Medale Oluwafemi for their guidance and support throughout the project.
