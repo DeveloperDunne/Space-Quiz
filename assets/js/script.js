@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (this.getAttribute("data-type") === "start") {
         quizPage.classList.remove("hide");
         instructionsPage.classList.add("hide");
+        btn.classList.add("hide");
         startQuiz();
       }
     });
