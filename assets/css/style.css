@@ -22,7 +22,6 @@ body {
   margin-top: 30px;
   width: 100%;
   font-size: 15px;
-  border-radius: 20px;
   padding: 10px;
   color: #0a0d60;
   border: 2px solid white;
@@ -143,8 +142,6 @@ body {
 .correct {
   background: #52eaa0;
   color: black;
-  
-
 }
 
 .incorrect {

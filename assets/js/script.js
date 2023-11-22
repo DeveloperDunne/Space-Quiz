@@ -1,18 +1,22 @@
 //Waiting for DOM to load before game starts.
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.getElementsByTagName("button");
+  setUp();
+});
+
+//Listens for start button to be clicked to begin quiz.
+function setUp() {
   for (let button of buttons) {
     button.addEventListener("click", function () {
       if (this.getAttribute("data-type") === "start") {
-        quizPage.classList.remove("hide");
-        instructionsPage.classList.add("hide");
-        btn.classList.add("hide");
+        hideInfo();
         startQuiz();
       }
     });
   }
-});
+}
 
+//Elements grabbed for manipulation.
+const buttons = document.getElementsByTagName("button");
 const instructionsPage = document.getElementById("instructions");
 const quizPage = document.getElementById("quiz-box");
 const questionElement = document.getElementById("question");
@@ -26,14 +30,36 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 //Randomises questions.
+function shuffle(startQuiz) {
+  questions.sort(() => Math.random() - 0.5).slice(0, 10);
+}
 
-questions.sort(() => Math.random() - 0.5).slice(0, 10);
+//Modal.
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+span.onclick = function () {
+  modal.style.display = "none";
+};
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+//Hides play button and instructions page when quiz starts.
+function hideInfo() {
+  quizPage.classList.remove("hide");
+  instructionsPage.classList.add("hide");
+  btn.classList.add("hide");
+}
 
 //Starts Quiz.
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
+  shuffle();
   showQuestion();
 }
 
@@ -75,7 +101,7 @@ function showScore() {
   nextButton.style.display = "block";
 }
 
-//When an answer is selected.
+//Addes to score if answer is correct.
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const answerCorrect = selectedBtn.dataset.correct === "true";
@@ -94,6 +120,7 @@ function selectAnswer(e) {
   nextButton.style.display = "block";
 }
 
+//Runs through questions up to 10 then shows score.
 function handleNextButton() {
   currentQuestionIndex++;
   if (currentQuestionIndex < 10) {
@@ -106,28 +133,8 @@ nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < 10) {
     handleNextButton();
   } else {
+    shuffle();
     startQuiz();
   }
 });
-
-
-
-
-// When the user clicks on the button, open the modal
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
-
 startQuiz();
