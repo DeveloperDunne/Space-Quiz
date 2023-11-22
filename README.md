@@ -119,7 +119,32 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - It was tested on all devices such as mobile, tablet and laptop to ensure responsiveness.
 - Friends and family members were also asked to test the website.
 
-### Testing programmes run:
+| | Mobile S (320px)| Mobile L (425px)| Tablet (768px) | Desktop (1024px)|
+|---|:---:|:---:|:---:|:---:|
+|Responsive Images|✓|✓|✓|✓|
+|Responsive Elements|✓|✓|✓|✓|
+|Responsive Text|✓|✓|✓|✓|
+|Responsive Nav Bar|✓|✓|✓|✓|
+
+
+|Index Page Testing|Yes/No|
+|---|:---:|
+|A background image and main page loads and is responsive across all screen sizes|✓|
+|How to play button appears on loadup|✓|
+|How to play button when clicked opens modal|✓|
+|A link at bottom of page navigates to a new tab and desired website|✓| 
+
+|Quiz Page Testing|Yes/No|
+|---|:---:|
+|Quiz question generated when start button clicked|✓|
+|When user selects an answer a new question is generated|✓|
+|When user gets correct answer, it is highlighted green and score increases by 1 point|✓|
+|When user gets incorrect answer, it is highlighted red and correct answer is shown|✓|
+|When quiz finishes, final score is show and option to play again|✓|
+
+---
+
+### 6. Testing programmes run:
 
 #### Am I responsive:
 
@@ -161,7 +186,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
  <br>
 
-## 6. Deployment:
+## 7. Deployment:
 
 ### GitHub pages deployment:
 
@@ -181,7 +206,7 @@ Once the webiste is deployed you can view it online, to do this:
 
 <br>
 
-## 7. Achknowledgements and Credits:
+## 8. Achknowledgements and Credits:
 
 ### Design Credits:
 
