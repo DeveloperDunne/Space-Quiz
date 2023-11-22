@@ -42,7 +42,7 @@ window.onclick = function (event) {
 };
 
 //Randomises questions.
-function shuffle(startQuiz) {
+function shuffle() {
   questions.sort(() => Math.random() - 0.5).slice(0, 10);
 }
 
@@ -89,15 +89,16 @@ function resetState() {
 //Shows score at end of quiz.
 function showScore() {
   resetState();
-  if (score <= 6) {
+  if (score <= 5) {
     questionElement.innerHTML = `You scored ${score} out of 10! Keep practising!`;
-  } else if (score <= 8) {
+  } else if (score <= 7) {
     questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
-  } else if (score === 10) {
+  } else if (score <= 9) {
     questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
   }
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
+  shuffle();
 }
 
 //Addes to score if answer is correct.
@@ -132,8 +133,8 @@ nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < 10) {
     handleNextButton();
   } else {
-    shuffle();
     startQuiz();
   }
 });
+
 startQuiz();
