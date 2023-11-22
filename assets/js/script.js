@@ -3,18 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   setUp();
 });
 
-//Listens for start button to be clicked to begin quiz.
-function setUp() {
-  for (let button of buttons) {
-    button.addEventListener("click", function () {
-      if (this.getAttribute("data-type") === "start") {
-        hideInfo();
-        startQuiz();
-      }
-    });
-  }
-}
-
 //Elements grabbed for manipulation.
 const buttons = document.getElementsByTagName("button");
 const instructionsPage = document.getElementById("instructions");
@@ -29,11 +17,17 @@ const span = document.getElementsByClassName("close")[0];
 let currentQuestionIndex = 0;
 let score = 0;
 
-//Randomises questions.
-function shuffle(startQuiz) {
-  questions.sort(() => Math.random() - 0.5).slice(0, 10);
+//Listens for start button to be clicked to begin quiz.
+function setUp() {
+  for (let button of buttons) {
+    button.addEventListener("click", function () {
+      if (this.getAttribute("data-type") === "start") {
+        hideInfo();
+        startQuiz();
+      }
+    });
+  }
 }
-
 //Modal.
 btn.onclick = function () {
   modal.style.display = "block";
@@ -46,6 +40,11 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+//Randomises questions.
+function shuffle(startQuiz) {
+  questions.sort(() => Math.random() - 0.5).slice(0, 10);
+}
 
 //Hides play button and instructions page when quiz starts.
 function hideInfo() {
