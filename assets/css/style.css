@@ -1,15 +1,15 @@
-
+ @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Tenor+Sans&display=swap');
 
 /*Overides default styles*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "M PLUS Rounded 1c", "sans-serif";
+  font-family: 'Tenor Sans',"sans-serif";
 }
 
 body {
-  background: url("../images/space-bg.webp");
+  background: url("../images/spcbg.webp");
   color: #0a0d60;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ body {
   margin-top: 30px;
   width: 100%;
   font-size: 15px;
-  padding: 10px;
+  padding: 15px;
   color: #0a0d60;
   border: 2px solid white;
   border-radius: 5px;
@@ -57,7 +57,6 @@ body {
   color: #f76dae;
   float: right;
   font-size: 28px;
-  font-weight: bold;
 }
 
 .close:hover,
@@ -85,6 +84,7 @@ body {
   border-bottom: 1px solid #f76dae;
   text-align: center;
   font-size: 25px;
+  padding:15px;
 }
 
 .info {
@@ -112,7 +112,6 @@ body {
   padding: 5px;
   margin: 10px 0;
   font-size: 12px;
-  font-weight: 900;
 }
 
 .btn:hover:not([disabled]) {
@@ -172,7 +171,7 @@ a {
     font-size: 17px;
   }
   .container {
-    max-height: 80%;
+    max-height: 75%;
   }
   
   #heading {
@@ -185,17 +184,16 @@ a {
   }
   
   #question {
-    padding: 10px;
     font-size: 20px;
   }
   
   .btn {
-    padding: 15px;
+    padding: 10px;
     margin: 10px 0;
     font-size: 15px;
   }
   #social {
-    margin-bottom: 5px;
+    margin-bottom: -10px;
     font-size: 20px;
   }
 }
