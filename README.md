@@ -191,6 +191,8 @@ Welcome to my quiz on all things space! Space quiz tests the user's knowledge of
 
  - When I ran my Javascript code through JShint I got a few warnings about using 'let' and 'const'. I saw advice from the Slack community which told me to include (/*jshint esversion: 6 */) at the top of my code and that solved the problem.
 
+ - I had a bug that whenever the user got 10/10 questions correct it would not load the score. I fixed this by rearranging the scores to show them as a less than or equal to (number) rather than just a more than (number).
+
 ### Unfixed Bugs:
 
 - I am unsure as to why however since switching from CodeAnywhere to VS code it seems that it shows 2 contributors on GitHub rather than one, this is even though it is just myself working on the project.
