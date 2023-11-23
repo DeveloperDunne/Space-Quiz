@@ -1,6 +1,10 @@
 # Space Quiz
 <br>
-Welcome to my quiz on all things space! Space quiz tests the user's knowledge of space and planets whilst ensuring that it is fun and colourful.
+Welcome to a quiz on all things space!
+<br>
+Space is a mysterious but wonderful subject which gets people dreaming about whats outside of our beautiful planet. Just thinking about space ignites curiosity and wonder, especially for those of a younger age. 
+<br>
+Space quiz tests the user's knowledge of space and planets whilst ensuring that it is fun,colourful and educational.
 
 <br>
 <br>
