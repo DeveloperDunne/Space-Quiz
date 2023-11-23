@@ -1,6 +1,6 @@
 # Space Quiz
 <br>
-Welcome to my quiz on all things space! Space quiz tests the users knowledge on space and planets whilst ensuring that it is fun and colourful.
+Welcome to my quiz on all things space! Space quiz tests the user's knowledge of space and planets whilst ensuring that it is fun and colourful.
 
 <br>
 <br>
@@ -12,12 +12,12 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - [1. Goals](#1-goals)
 - [2. Live Website](#2-live-website)
-- [3. Color Pallete](#3-color-pallete)
+- [3. Colour Palette](#3-colour-palette)
 - [4. Features](#4-features)
 - [5. Technologies Used](#5-technologies-used)
 - [6. Testing](#6-testing)
 - [7. Deployment](#7-deployment)
-- [8. Achknowledgements and Credits](#8-achknowledgements-and-credits)
+- [8. Acknowledgements and Credits](#8-acknowledgements-and-credits)
 
 <br>
 
@@ -28,9 +28,9 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 - I would like this quiz to be fun and educational.
 - The quiz is aimed at primary school children.
 - I wanted the quiz to be bold and colourful but to be easy to read and navigate through.
-- The goal of the site is to provide a challenging quiz to entertain online users most.
+- The goal of the site is to provide a challenging quiz for primary school children.
 
-### User Exeperience /Goals:
+### User Experience /Goals:
 
 - I would like to see what the quiz is going to be about.
 - I would like the quiz to be fun.
@@ -47,9 +47,9 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
   <br>
 
-## 3. Color pallete:
+## 3. Colour palette:
 
-- The quiz was designed to keep the same color pallete throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/).
+- The quiz was designed to keep the same colour palette throughout to ensure continuity. The colours used are below and were sourced from [coolors.co](https://coolors.co/).
 - The colours were checked with a contrast checker at [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00).
 
 <br>
@@ -73,14 +73,14 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The Modal:
 
-- The Modal will open once the 'How to play' button is clicked. Here you will find clear instructions on how the quiz works and how to get started. You can exit the modal by clicking the pink cross in the top right corner or alternitivly clicking outside the modal.
+- The Modal will open once the 'How to play' button is clicked. Here you will find clear instructions on how the quiz works and how to get started. You can exit the modal by clicking the pink cross in the top right corner or clicking outside the modal.
 
 
 ![Modal](./readme-images/modal.webp)
 
 ### Link to Github:
 
-- At the bottom of the page in the footer is a link that will take you to the repository page of the creator of the webiste. This will open in a new tab.
+- At the bottom of the page in the footer is a link that will take you to the repository page of the creator of the website. This will open in a new tab.
 
 ![Link to GitHub](./readme-images/githublink.webp)
 
@@ -98,14 +98,14 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 ### The wrong answer:
 
-- However, if you click on the incorrect answer it will change to red and then you will be presented with the correct answer marked in gree. The next button to carry on to the next question will also appear..
+- However, if you click on the incorrect answer it will change to red and then you will be presented with the correct answer marked in green. The next button to carry on to the next question will also appear.
 
 ![Wrong answer](./readme-images/incorrect-answer.webp)
 
 
 ### End of quiz:
 
-- Once you have completed the 10 questions of the quiz and clicked next you will be shown your score. The message displayed will vary considering on how many answers you got correct.
+- Once you have completed the 10 questions of the quiz and clicked next you will be shown your score. The message displayed will vary depending on how many answers you got correct.
 
 ![End of quiz page](./readme-images/end-game.webp)
 
@@ -118,7 +118,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 - HTML: This was used to create the basic structure of the quiz.
 - CSS: This was used to style the content.
-- Javascript: This was used in order to ensure the quiz was interactive.
+- Javascript: This was used to ensure the quiz was interactive.
 
 <br>
 
@@ -143,15 +143,15 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 |A background image and main page loads and is responsive across all screen sizes|✓|
 |How to play button appears on loadup|✓|
 |How to play button when clicked opens modal|✓|
-|A link at bottom of page navigates to a new tab and desired website|✓| 
+|A link at the bottom of the page navigates to a new tab and desired website|✓| 
 
 |Quiz Page Testing|Yes/No|
 |---|:---:|
 |Quiz question generated when start button clicked|✓|
-|When user selects an answer a new question is generated|✓|
-|When user gets correct answer, it is highlighted green and score increases by 1 point|✓|
-|When user gets incorrect answer, it is highlighted red and correct answer is shown|✓|
-|When quiz finishes, final score is shown and option to play again appears|✓|
+|When the user selects an answer a new question is generated|✓|
+|When the user gets the correct answer, it is highlighted green and the score increases by 1 point|✓|
+|When the user gets an incorrect answer, it is highlighted in red and the correct answer is shown|✓|
+|When the quiz finishes, the final score is shown and the option to play again appears|✓|
 
 ---
 
@@ -181,7 +181,7 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
 #### JSHint:
 
-- I ran my Javascript code through JShint and only had the one warning which I was unable to work out how to remove. I discussed this with peers who stated they had the same issue and that this particular one is okay to remain.
+- I ran my Javascript code through JShint and only had one warning which I was unable to work out how to remove. I discussed this with peers who stated they had the same issue and that this particular one was okay to remain.
 
 ![JShint Validator](./readme-images/jshint-val.webp)
 
@@ -189,13 +189,13 @@ Welcome to my quiz on all things space! Space quiz tests the users knowledge on 
 
  ### Bugs solved:
 
- - When I ran my Javascript code through JShint I got a few warnings about using 'let' and 'const'. I saw advice from the slack community who told me to include (/*jshint esversion: 6 */) at the top of my code and that solved the problem.
+ - When I ran my Javascript code through JShint I got a few warnings about using 'let' and 'const'. I saw advice from the Slack community which told me to include (/*jshint esversion: 6 */) at the top of my code and that solved the problem.
 
 ### Unfixed Bugs:
 
-- I am unsure as to why however since switching form CodeAnywhere to VS code it seem that it show 2 contributors on GitHub rather than one, this is even though it is just myself working on the project.
+- I am unsure as to why however since switching from CodeAnywhere to VS code it seems that it shows 2 contributors on GitHub rather than one, this is even though it is just myself working on the project.
 
-- There was a warnng on JShint regarding functions in loops, I discussed this with my mentor and other students who advised that this wasnt an issue.
+- There was a warning on JShint regarding functions in loops, I discussed this with my mentor and other students who advised that this wasn't an issue.
 
  <br>
 
@@ -222,13 +222,13 @@ Once the webiste is deployed you can view it online, to do this:
 - Go to the repository on GitHub.
 - Click on the Code button and copy the https URL under Clone
 - Open a terminal.
-- Go to the folder you want to store the cloned repository
-- In the terminal type git clone and paste the URL of the cloned repository after it then press Enter
-- The site will then be cloned to that directory
+- Go to the folder you want to store the cloned repository.
+- In the terminal type git clone and paste the URL of the cloned repository after it then press Enter.
+- The site will then be cloned to that directory.
 
 <br>
 
-## 8. Achknowledgements and Credits:
+## 8. Acknowledgements and Credits:
 
 ### Design Credits:
 
@@ -238,9 +238,9 @@ Once the webiste is deployed you can view it online, to do this:
 - Favicon was taken from [Favicon.io](https://favicon.io/).
 - The background picture was taken from [HD Wallpapers](https://www.hdwallpapers.in/purple_pink_galaxy_space_stars_nebula_hd_space-wallpapers.html)
 
-### Achknowledements and Credits:
+### Acknowledements and Credits:
 
 - Ideas were taken from the Code Institute's Love Maths project and google for design ideas.
-- W3 Schools and copyprogramming.com was used to combat any issues with code or if I was stuck (e.g - how to disable hover effect once answer selected & appending child elements).
+- W3 Schools and copyprogramming.com was used to combat any issues with code or if I was stuck (e.g. - how to disable the hover effect once the answer selected & appending child elements).
 - W3 School was also used to create a modal on the landing page.
 - I would like to thank the Slack community and my mentor, Medale Oluwafemi for their guidance and support throughout the project.

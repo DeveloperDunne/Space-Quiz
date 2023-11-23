@@ -29,7 +29,7 @@ function setUp() {
     });
   }
 }
-//Modal.
+//Modal (Scourced form W3 Schools).
 btn.onclick = function () {
   modal.style.display = "block";
 };
@@ -89,15 +89,15 @@ function resetState() {
 //Shows score at end of quiz.
 function showScore() {
   resetState();
-  if (score <= 5) {
-    questionElement.innerHTML = `You scored ${score} out of 10! Keep practising!`;
-  } else if (score <= 7) {
-    questionElement.innerHTML = `You scored ${score} out of 10! Good job!`;
-  } else if (score === 10) {
-    questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
-  } else {
-    questionElement.innerHTML = `You scored ${score} out of 10! DId we solve it?`;
-  }
+ if (score === 10) {
+   questionElement.innerHTML = `You scored ${score} out of 10! We have lift off!!`;
+ } else if (score >= 7) {
+   questionElement.innerHTML = `You scored ${score} out of 10! So close yet so far.`;
+ } else if (score >= 5) {
+   questionElement.innerHTML = `You scored ${score} out of 10! Keep practising.`;
+ } else {
+   questionElement.innerHTML = `You scored ${score} out of 10! It's back to base for you.`;
+ }
   nextButton.innerHTML = "Play Again?";
   nextButton.style.display = "block";
   shuffle();
